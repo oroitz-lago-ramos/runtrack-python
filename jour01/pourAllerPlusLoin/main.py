@@ -5,3 +5,5 @@ for i in chaine:
         count += 1
 if count > 0:
     print(f'Il y a {count} "e" dans la chaîne de caractères')
+else:
+    print("Il n'y a pas de \"e\" dans la chaîne de caractères")
