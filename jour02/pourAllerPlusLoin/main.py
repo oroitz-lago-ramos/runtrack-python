@@ -2,7 +2,6 @@ a = float(input("Coté a: "))
 b = float(input("Coté b: "))
 c = float(input("Coté c: "))
 longueurs = sorted([a,b,c])
-print(longueurs)
 if longueurs[-1] < longueurs[0] + longueurs[1]:
     if a == b == c:
         print("Le triangle est constructible et équilatéral")
