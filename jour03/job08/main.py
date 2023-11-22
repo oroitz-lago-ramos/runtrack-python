@@ -7,3 +7,6 @@ def liste(type, saison):
         print(legumes[saison])
         
 liste("fruits", "ete")
+liste("fruits", "hiver")
+liste("legume", "ete")
+liste("legume", "hiver")
