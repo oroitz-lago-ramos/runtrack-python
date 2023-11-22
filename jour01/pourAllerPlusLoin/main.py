@@ -1,4 +1,5 @@
 chaine = "Salut je suis une chaine de caracteres"
+chaine = chaine.lower()
 count = 0
 for i in chaine:
     if (i == "e"):
