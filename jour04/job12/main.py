@@ -1,10 +1,16 @@
 L = [8, 24, 27, 48, 2, 16, 9, 102, 7, 84, 91]
 print(L)
 
-def getLength(liste):
+def get_length(liste):
     length = 0
-    for i in liste:
-        length += 1
+
+    while True:
+        try:
+            element = liste[length]
+            length += 1
+        except IndexError:
+            break
+
     return length
 
 def test_tri(liste,length):
@@ -22,7 +28,7 @@ def test_tri(liste,length):
         
     
 def tri(liste):
-    length = getLength(liste)
+    length = get_length(liste)
     finish_count = 1
     while finish_count != 0 :
         finish_count -= 1

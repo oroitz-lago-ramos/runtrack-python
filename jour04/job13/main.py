@@ -1,9 +1,14 @@
-def getLength(liste):
+def get_length(liste):
     length = 0
-    for i in liste:
-        length += 1
-    return length+
 
+    while True:
+        try:
+            element = liste[length]
+            length += 1
+        except IndexError:
+            break
+
+    return length
 
 def test_tri(liste,length):
     count = 0
@@ -20,16 +25,16 @@ def test_tri(liste,length):
         
     
 def tri(liste):
-    length = getLength(liste)
+    length = get_length(liste)
     finish_count = 1
     while finish_count != 0 :
         finish_count -= 1
-        finish_count += test_tri(liste, length)
+        finish_count += test_tri(liste, length) 
     return liste 
 
 L = [10,20,30,20,10,50,60,40,80,50,40]
 print(L)
-length = getLength(L)
+length = get_length(L)
 L = tri(L)
 print(L)
 i = 1
