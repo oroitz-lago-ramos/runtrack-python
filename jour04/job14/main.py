@@ -43,7 +43,6 @@ def get_length(chaine):
     return length
 def my_long_word(chiffre, phrase):
     length = get_length(phrase)
-    print(length)
     word = ''
     word_list = []
     i=0
