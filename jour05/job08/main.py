@@ -75,3 +75,6 @@ print("Nombre total de boucles parcourues:", nombre_boucles, "\n")
 # Si la liste est desordonée les deux algorithmes sont similaires
 # Pour le pire cas d'utilisation de ma version, la liste ordonée dans l'autre sens ce n'est vraiment pas la meilleure solution 
 
+# Une autre option qui serait je pense que la meilleure pour le tri a bulles, 
+# utiliser un booléen entre les deux boucles qui si il y a eu un changement elle devient false
+
