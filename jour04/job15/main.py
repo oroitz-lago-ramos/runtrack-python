@@ -53,6 +53,7 @@ def round_list(list):
     return list
 
 liste_chiffres = [22.4, 4.0, 16.22, 9.10, 11.00, 12.22, 14.20, 5.20, 17.50]
+print(liste_chiffres)
 liste_arrondie = round_list(liste_chiffres)
 print(liste_arrondie)
 
