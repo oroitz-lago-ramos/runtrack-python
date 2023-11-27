@@ -1,4 +1,6 @@
 def arrondir_note(note):
+    if note < 40:
+        return note
     if note % 5 >= 3:
         while note % 5 != 0:
             note += 1
